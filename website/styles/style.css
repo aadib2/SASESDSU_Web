@@ -1,0 +1,19 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #ddc8c8
+}
+
+header {
+    background: #007bff;
+    color: white;
+    padding: 1rem;
+}
+
+nav ul{
+    list-style: none;
+    display: flex;
+    gap: 1rem;
+}
+
