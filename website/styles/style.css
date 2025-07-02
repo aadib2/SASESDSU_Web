@@ -1,11 +1,10 @@
 body {
-    font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #ddc8c8
+    background-color: #D9E4D7;
 }
 
-header {
+/* header {
     background: #007bff;
     color: white;
     padding: 1rem;
@@ -15,5 +14,110 @@ nav ul{
     list-style: none;
     display: flex;
     gap: 1rem;
+} */
+
+.navbar {
+    background-color:#324d3e;
+    width: 972px;
+    height: 67px;
+    left: 154px;
+    top: 40px;
+
+    margin-left: auto;
+    margin-right: auto;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    margin-top: 40px;
+    /* set the border radius */
+    border-radius: 30px;
+
+
 }
 
+.nav-menu {
+    display: flex;
+    gap: 25px;
+} 
+
+.navbar ul {
+    list-style-type: none;
+}
+
+.navbar a {
+    text-decoration: none;
+    color: #EEE4E0;
+    font-weight: normal;
+
+    /* set font type */
+    font-family: 'Mitr', sans-serif;
+    font-size: 20px;
+}
+
+.box-head {
+    position: absolute;
+    width: 757px;
+    height: 612px;
+    left: 750px;
+    top: 158px;
+
+    background: #8EA48B;
+    border-radius: 90px;
+    font-family: 'Mitr', sans-serif;
+
+    display: flex;               
+    flex-direction: column;      
+    justify-content: center;      /* Vertically center */
+    align-items: flex-start;      /* Left align horizontally */
+    padding-left: 40px;      
+
+    /* translate to  position within page*/
+    /* transform: translate(300px); */
+
+}
+#subheader {
+    font-size: 20px;
+    color: #3D1F12;
+}
+
+#header {
+    font-size: 80px;
+    font-family: 'Playfair Display', serif;
+    color: #4A2F24
+}
+
+.box-title {
+    position: absolute;
+    width: 770px;
+    height: 208px;
+    left: 40px;
+    top: 900px;
+
+    background: #728A6E;
+    color: #4A2F24;
+    font-family: 'Krona One', sans-serif;
+    font-size: 36px;
+
+    display: flex;
+    flex-direction: column;      
+    justify-content: center;      /* Vertically center */
+    align-items: flex-start;      /* Left align horizontally */
+    padding-left: 40px;  
+    border-radius: 50px;
+}
+
+/* need to be fixed */
+#sase-img1 {
+    position: absolute;
+    width: 568.98px;
+    height: 715.43px;
+    left: -14px;
+    top: -99px;
+
+    border: 26px solid #84634A;
+    border-radius: 50px;
+    transform: matrix(0.94, -0.33, 0.36, 0.93, 0, 0);
+
+}
