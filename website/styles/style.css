@@ -61,7 +61,7 @@ nav ul{
     font-size: 20px;
 }
 
-.nav-but:hover {
+.navbar a:hover {
     background-color: #2B4336;
 }
 
@@ -71,7 +71,7 @@ nav ul{
     position: absolute;
     width: 757px;
     height: 612px;
-    left: 750px;
+    right: 70px;
     top: 158px;
 
     background: #8EA48B;
@@ -82,7 +82,7 @@ nav ul{
     flex-direction: column;      
     justify-content: center;      /* Vertically center */
     align-items: flex-start;      /* Left align horizontally */
-    padding-left: 40px;      
+    padding-left: 50px;      
 
     /* translate to  position within page*/
     /* transform: translate(300px); */
