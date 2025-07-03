@@ -30,9 +30,13 @@ nav ul{
     justify-content: center;
     align-items: center;
 
-    margin-top: 40px;
+    margin-top: 20px;
     /* set the border radius */
     border-radius: 30px;
+
+    position: fixed;
+    left: 50%;
+    transform: translateX(-50%);
 
 
 }
