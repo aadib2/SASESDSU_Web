@@ -56,6 +56,12 @@ nav ul{
     font-size: 20px;
 }
 
+.nav-but:hover {
+    background-color: #2B4336;
+}
+
+
+
 .box-head {
     position: absolute;
     width: 757px;
