@@ -17,6 +17,7 @@ nav ul{
 } */
 
 .navbar {
+    z-index: 1; /*keeps it in front*/
     background-color:#324d3e;
     width: 972px;
     height: 67px;
