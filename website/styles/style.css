@@ -4,17 +4,6 @@ body {
     background-color: #D9E4D7;
 }
 
-/* header {
-    background: #007bff;
-    color: white;
-    padding: 1rem;
-}
-
-nav ul{
-    list-style: none;
-    display: flex;
-    gap: 1rem;
-} */
 
 .navbar {
     z-index: 1; /*keeps it in front*/
@@ -66,7 +55,6 @@ nav ul{
 }
 
 
-
 .box-head {
     position: absolute;
     width: 757px;
@@ -104,7 +92,7 @@ nav ul{
     width: 770px;
     height: 208px;
     left: 40px;
-    top: 900px;
+    top: 1000px;
 
     background: #728A6E;
     color: #4A2F24;
@@ -121,7 +109,7 @@ nav ul{
 
 /* need to be fixed */
 #sase-img1 {
-    position: absolute;
+    /* position: absolute;
     width: 568.98px;
     height: 715.43px;
     left: -14px;
@@ -129,6 +117,56 @@ nav ul{
 
     border: 26px solid #84634A;
     border-radius: 50px;
-    transform: matrix(0.94, -0.33, 0.36, 0.93, 0, 0);
+    transform: matrix(0.94, -0.33, 0.36, 0.93, 0, 0); */
+
+    position: absolute;
+    width: 568.98px;
+    height: auto;
+    left: 300px;
+    top: -40px;
+    z-index:  -1;
+    transform: scale(1.25)
 
 }
+
+#sase-img2 {
+    /* Group 1 */
+    position: absolute;
+    width: 753px;
+    height: 675px;
+    left: -210px;
+    top: 400px;
+
+    transform: scale(1.25);
+    z-index: -1;
+}
+
+#mission-statement {
+    position: absolute;
+    width: 700px;
+    height: 420px;
+    left: 60px;
+    top: 1300px;
+
+    background: #BECFBB;
+    border-radius: 30px;
+
+    color: #3D1F12;
+    font-size: 28px;
+    font-family: 'Mitr', 'sans-serif';
+
+    display: flex;
+    flex-direction: column;      
+    justify-content: center;      
+    align-items: center;   
+    padding-left: 20px;
+
+}
+
+/* .footer {
+
+} */
+
+
+
+
