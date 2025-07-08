@@ -57,9 +57,9 @@ body {
 
 .box-head {
     position: absolute;
-    width: 757px;
-    height: 612px;
-    right: 70px;
+    width: 850px;
+    height: 650px;
+    right: -30px;
     top: 158px;
 
     background: #8EA48B;
@@ -77,22 +77,53 @@ body {
 
 }
 #subheader {
+    /* SAN DIEGO STATE UNIVERSITY CHAPTER */
+
+    position: absolute;
+    width: 537.98px;
+    height: 41.96px;
+    left: 60px;
+    top: 90px;
+
+    font-family: 'Mitr';
+    font-style: normal;
+    font-weight: 400;
     font-size: 20px;
+    line-height: 31px;
+
     color: #3D1F12;
+
+
 }
 
 #header {
+    /* Society of Asian Scientists & Engineers */
+
+    position: absolute;
+    width: 600.36px;
+    height: auto;
+    bottom: 0px;
+    left: 60px;
+
+    font-family: 'AMORIA';
+    font-style: normal;
+    font-weight: 400;
     font-size: 80px;
-    font-family: 'Playfair Display', serif;
-    color: #4A2F24
+    line-height: 77px;
+    display: flex;
+    align-items: flex-end;
+
+    color: #4A2F24;
+
+
 }
 
 .box-title {
     position: absolute;
     width: 770px;
     height: 208px;
-    left: 40px;
-    top: 1000px;
+    left: 10%;
+    top: 1100px;
 
     background: #728A6E;
     color: #4A2F24;
@@ -105,6 +136,10 @@ body {
     align-items: flex-start;      /* Left align horizontally */
     padding-left: 40px;  
     border-radius: 50px;
+}
+
+.box-title p {
+    width: 550px;
 }
 
 /* need to be fixed */
@@ -122,8 +157,8 @@ body {
     position: absolute;
     width: 568.98px;
     height: auto;
-    left: 300px;
-    top: -40px;
+    left: 500px;
+    top: 40px;
     z-index:  -1;
     transform: scale(1.25)
 
@@ -132,10 +167,10 @@ body {
 #sase-img2 {
     /* Group 1 */
     position: absolute;
-    width: 753px;
-    height: 675px;
-    left: -210px;
-    top: 400px;
+    width: 800px;
+    height: 800px;
+    left: -150px;
+    top: 350px;
 
     transform: scale(1.25);
     z-index: -1;
@@ -143,10 +178,11 @@ body {
 
 #mission-statement {
     position: absolute;
-    width: 700px;
+    width: 885px;
     height: 420px;
-    left: 60px;
-    top: 1300px;
+    left: 310px;
+    top: 1450px;
+    
 
     background: #BECFBB;
     border-radius: 30px;
@@ -161,6 +197,18 @@ body {
     align-items: center;   
     padding-left: 20px;
 
+}
+
+#mission-statement p {
+    padding: 30px;
+}
+
+#team {
+    position: absolute;
+    top: 1150px;
+    left: 950px;
+    width: 700px;
+    border-radius: 60px;
 }
 
 /* .footer {
