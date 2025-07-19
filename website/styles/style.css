@@ -205,7 +205,7 @@ body {
     width: 655px;
     height: 208px;
     left: 80px;
-    top: 1760px;
+    top: 1960px;
     
     background: #728A6E;
     color: #4A2F24;
@@ -224,10 +224,10 @@ body {
 
 #about-desc {
     position: absolute;
-    width: 750px;
+    width: 1070px;
     height: 400px;
     left: 555px;
-    top: 1860px;
+    top: 2060px;
 
     background: #5B5656;
     color: #EEE4E0;
@@ -244,19 +244,26 @@ body {
 
 #learn-more {
     position: absolute;
-    width: 450px;
+    width: 480px;
     height: 139px;
-    left: 110px;
-    top: 2200px;
+    left: 140px;
+    top: 2450px;
     background: #8EA48B;
     color: #4A2F24;
+    border-radius: 50px;
+    font-family: 'Mitr', sans-serif;
+    font-size: 28px;
 
     display: flex;
     flex-direction: column;      
     justify-content: center;      /* Vertically center */
     align-items: center;     /* center horizontally */
-    padding-left: 20px;
+    
 
+}
+
+#learn-more a {
+    color: #2B4336;
 }
 
 #mission-statement p {
@@ -271,8 +278,51 @@ body {
     border-radius: 60px;
 }
 
-/* .footer {
+#core-values{
+    position: absolute;
+    top: 2800px;
+    left: 950px;
+    width: 700px;
+    border-radius: 60px;
 
+    /* Rectangle 14 */
+
+    position: absolute;
+    width: 600px;
+    height: 140px;
+    left: 30%;
+    top: 2744px;
+
+    background: #728A6E;
+    border-radius: 25px;
+
+    display: flex;
+    justify-content: center;
+
+}
+
+#core-values p {
+    /* Core Values */
+
+    position: absolute;
+    width: 473px;
+    height: 87px;
+    
+
+    font-family: 'Krona One';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 48px;
+    line-height: 60px;
+    text-align: center;
+
+    color: #4A2F24;
+}
+
+/*.footer {
+    background-color: #324d3e;  
+    display: flex;
+    padding: 20px;
 } */
 
 
