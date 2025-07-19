@@ -205,7 +205,7 @@ body {
     width: 655px;
     height: 208px;
     left: 80px;
-    top: 1960px;
+    top: 2060px;
     
     background: #728A6E;
     color: #4A2F24;
@@ -227,7 +227,7 @@ body {
     width: 1070px;
     height: 400px;
     left: 555px;
-    top: 2060px;
+    top: 2160px;
 
     background: #5B5656;
     color: #EEE4E0;
@@ -247,7 +247,7 @@ body {
     width: 480px;
     height: 139px;
     left: 140px;
-    top: 2450px;
+    top: 2550px;
     background: #8EA48B;
     color: #4A2F24;
     border-radius: 50px;
@@ -278,36 +278,27 @@ body {
     border-radius: 60px;
 }
 
-#core-values{
+#core {
     position: absolute;
-    top: 2800px;
-    left: 950px;
-    width: 700px;
-    border-radius: 60px;
+    left: 20%;
+    top: 2844px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 
-    /* Rectangle 14 */
+}
 
-    position: absolute;
+#core-header {
     width: 600px;
     height: 140px;
     left: 30%;
-    top: 2744px;
 
     background: #728A6E;
     border-radius: 25px;
 
     display: flex;
     justify-content: center;
-
-}
-
-#core-values p {
-    /* Core Values */
-
-    position: absolute;
-    width: 473px;
-    height: 87px;
-    
+    align-items: center;
 
     font-family: 'Krona One';
     font-style: normal;
@@ -317,6 +308,59 @@ body {
     text-align: center;
 
     color: #4A2F24;
+
+}
+
+
+#core-values1 {
+    display: flex;
+    flex-direction: row;
+    margin: 20px;
+}
+
+#core-values2 {
+    display: flex;
+    flex-direction: row;
+    margin: 20px;
+}
+
+.core-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 390px;
+    margin-left: 20px;
+    right: auto;
+}
+
+.core-item img{
+    width: 207px;
+}
+
+.core-item h3 {
+    font-family: 'Krona One';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 19px;
+    /* identical to box height */
+    text-align: center;
+
+    color: #324D3E;
+}
+
+.core-item p {
+    font-family: 'Mitr';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 24px;
+    text-align: center;
+    margin-top: 0px;
+
+    color: #4A2F24;
+
+
 }
 
 /*.footer {
